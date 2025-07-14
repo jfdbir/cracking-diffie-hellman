@@ -8,8 +8,8 @@ import (
 
 func main() {
 	// Alice announces these, Eve intercepts them before passing them to Bob.
-	var p int = 719
-	var alpha int = 234
+	var p int = 1000000007
+	var alpha int = 5
 
 	// Alice and Bob choose SA and SB respectively (secret, never transmitted)
 	var SA int = rand.IntN(10000)
